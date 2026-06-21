@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet Unity - Portfolio Elliot</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Visage.png" alt="Elliot Bellaiche-Larue" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Elliot Bellaiche-Larue">Elliot Bellaiche-Larue</h1>
+
+          <p class="title">Développeur web</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Mail</p>
+
+              <a href="mailto:elliot.bellaichelarue427@gmail.com" class="contact-link">elliot.bellaichelarue427@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Âge</p>
+
+              <time datetime="1982-06-23">20 ans</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Le Puy-en-Velay, 43000</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/elliot-bella%C3%AFche-larue/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Sur moi</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Parcours</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Projets</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #PROJECT DETAIL
+      -->
+
+      <article class="project-detail active" data-page="project-detail">
+
+        <header>
+          <h2 class="h2 article-title">Projet Unity</h2>
+        </header>
+
+        <section class="project-overview">
+          <figure class="project-main-img">
+            <img src="./assets/images/plage.png" alt="Projet Unity - plage" loading="lazy">
+          </figure>
+
+          <div class="project-info">
+            <h3 class="h3">Sujet</h3>
+            <p class="project-description">
+              Développement d’un prototype Unity de réalité virtuelle destiné à la réadaptation des patients du service MPR de l’hôpital Emile Roux. Ce projet est mené en partenariat avec l’IUT Informatique Graphique du Puy, le professeur Vincent Sauvage et l’équipe médicale du CMPR.
+            </p>
+            <p class="project-description">
+              L’objectif est de concevoir des environnements 3D immersifs et adaptés, qui permettent de travailler l’héminégligence et l’hémiplégie avec des exercices simples, sécurisés et progressifs.
+            </p>
+            <p class="project-description">
+              Le prototype vise à offrir un outil pédagogique et thérapeutique utilisable par des patients en situation de rééducation, avec des paramètres de difficulté et d’assistance configurables par le professionnel de santé.
+            </p>
+
+            <div class="project-details">
+              <div class="detail-item">
+                <h4 class="h4">Technologies utilisées</h4>
+                <ul class="tech-list">
+                  <li>Unity</li>
+                  <li>Réalité virtuelle (VR)</li>
+                  <li>Design centré utilisateur</li>
+                </ul>
+              </div>
+
+              <div class="detail-item">
+                <h4 class="h4">Fonctionnalités principales</h4>
+                <ul class="feature-list">
+                  <li>Environnements 3D immersifs</li>
+                  <li>Paramètres d’héminégligence gauche / droite</li>
+                  <li>Assistance visuelle et sonore</li>
+                </ul>
+              </div>
+
+              <div class="detail-item">
+                <h4 class="h4">Durée du projet</h4>
+                <p>Semestre 4, février à mars 2025</p>
+              </div>
+
+              <div class="detail-item">
+                <h4 class="h4">Équipe</h4>
+                <p>Projet mené par les étudiants du BUT Informatique Graphique, encadrés par Vincent Sauvage et le service MPR.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-gallery">
+          <h3 class="h3">Galerie du projet</h3>
+          <div class="gallery-grid">
+            <img src="./assets/images/champs.png" alt="Galerie champs" loading="lazy" class="gallery-img" data-src="./assets/images/champs.png">
+            <img src="./assets/images/bar.png" alt="Galerie bar" loading="lazy" class="gallery-img" data-src="./assets/images/bar.png">
+            <img src="./assets/images/maison.png" alt="Galerie maison" loading="lazy" class="gallery-img" data-src="./assets/images/maison.png">
+          </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+          <span class="lightbox-close" id="lightbox-close">&times;</span>
+          <img id="lightbox-img" src="" alt="">
+        </div>
+
+        <div class="project-links">
+          <a href="index.html" class="btn btn-primary">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+            Retour au portfolio
+          </a>
+        </div>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

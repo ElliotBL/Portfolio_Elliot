@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet à venir - Portfolio Elliot</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Visage.png" alt="Elliot Bellaiche-Larue" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Elliot Bellaiche-Larue">Elliot Bellaiche-Larue</h1>
+
+          <p class="title">Développeur web</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Mail</p>
+
+              <a href="mailto:elliot.bellaichelarue427@gmail.com" class="contact-link">elliot.bellaichelarue427@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Âge</p>
+
+              <time datetime="1982-06-23">20 ans</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Le Puy-en-Velay, 43000</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/elliot-bella%C3%AFche-larue/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Sur moi</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Parcours</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Projets</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <article class="project-detail active" data-page="project-detail">
+        <header>
+          <h2 class="h2 article-title">Monochrome - Origins</h2>
+        </header>
+
+        <section class="project-overview">
+          <figure class="project-main-img">
+            <img src="./assets/images/LogoMonochrome.png" alt="Logo Monochrome" loading="lazy" style="max-width:360px; width:100%; height:auto;">
+          </figure>
+
+          <div class="project-info">
+            <h3 class="h3">Présentation</h3>
+            <p class="project-description"><strong>Titre :</strong> Monochrome - Origins</p>
+            <p class="project-description"><strong>Auteurs :</strong> Selim Djaafri, Tristan Fabre, Florian Pleigneur, Elliot Bellaiche-Larue</p>
+
+            <p class="project-description">"Monochrome - Origins" est un prequel narratif en 3D développé avec Unreal Engine 5. Le joueur incarne un individu amnésique enfermé dans un hôpital expérimental. En utilisant une technologie appelée « Plongeon », il explore les mondes mentaux des patients : réalités déformées où les peurs et traumatismes prennent forme.</p>
+
+            <h4 class="h4">Concept & objectif</h4>
+            <p class="project-description">Le jeu mêle exploration, énigmes et affrontements symboliques. Chaque « niveau plongeon » illustre un trouble (dépression, anxiété, addiction, schizophrénie). L'objectif pédagogique est de sensibiliser à la santé mentale tout en offrant une expérience respectueuse et inclusive. L'approche privilégie l'écoconception : assets optimisés, post-process maîtrisés, textures légères pour garantir portabilité et faible empreinte énergétique.</p>
+
+            <h4 class="h4">Game design (extrait)</h4>
+            <p class="project-description">Mouvements : ZQSD (déplacement), Espace (saut), V (esquive), R (grimper), clic-gauche (utiliser arme). L'arme principale, la Synapse, sert à rétablir des liaisons électriques dans les niveaux plongeon. Chaque boucle de jeu consiste en exploration de l'hôpital, rencontre d'un patient, immersion dans son esprit et combat contre une Anomalie symbolique.</p>
+
+            <div class="project-details">
+              <div class="detail-item">
+                <h4 class="h4">Inspirations</h4>
+                <ul class="tech-list">
+                  <li>Psychonauts — exploration des mondes mentaux</li>
+                  <li>Little Nightmares — ambiance, level design et horreur symbolique</li>
+                </ul>
+              </div>
+
+              <div class="detail-item">
+                <h4 class="h4">Points techniques</h4>
+                <ul class="feature-list">
+                  <li>Unreal Engine 5 (BluePrints / C++)</li>
+                  <li>Post-process pour filtres colorimétriques et effets concept art</li>
+                  <li>Optimisation mémoire et assets pour écoconception</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- galerie supprimée sur demande -->
+
+        <div class="project-links">
+          <a href="index.html" class="btn btn-primary">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+            Retour au portfolio
+          </a>
+        </div>
+
+      </article>
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
